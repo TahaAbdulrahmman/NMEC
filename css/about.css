@@ -1,0 +1,119 @@
+/* Start variables */
+:root{
+  --main-color: #f6eecf ;
+  --second-color:#1c2452 ;
+  --p-color: #919199 ;
+  --p-color2: #1c2455 ;
+  --hover-color:#bb9551;
+  --section-padding: 30px;
+  --main-transition:.3s; 
+  --p-font-size: 19px;
+}
+/* End variables */
+/* Start global rules */
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: "work-sens", sans-serif;
+  direction: rtl;
+}
+.container{ 
+  padding:0 15px;
+  margin:0 auto;
+}
+ul{
+  list-style: none;
+}
+a{
+  display: block;
+  text-decoration: none;
+}
+/* small */
+@media (min-width:768px) {
+  .container{
+      width: 758px;
+  }
+}
+/* medium */
+@media (min-width:992px){
+  .container{
+      width: 972px; ;
+  }
+}
+/* large */
+@media (min-width:1200px){
+  .container{
+      width: 1170px;
+  }
+}
+/* End global rules */
+/* Start Gools */
+.museum-history>.title,
+.goals>.title{
+  background-color: var(--main-color);
+  padding: 15px 0;
+}
+.museum-history>.title>.container>h2,
+.goals>.title>.container>h2{
+  font-size: 30px;
+}
+.goals .container .text .title{
+  background-color: var(--main-color);
+  margin: 40px 0;
+}
+.goals .container .text .title h3{
+  font-size: 30px;
+  margin-right: 5px;
+}
+.goals .container .text ul.mus-gools li,
+.goals .container .text p{
+  color: var(--p-color2);
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  line-height: 1.8;
+  margin-right: 10px;
+}
+.goals .container .text ul.mus-gools{
+  list-style: circle;
+  margin: 0 10px 30px 0;
+}
+/* End Gools  */
+/* Start Museum-history  */
+.museum-history .container .content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  margin: 40px 0;
+}
+@media(max-width:991px) {
+  .museum-history .container .content{
+    flex-direction: column;
+  }
+  .museum-history .container .content:first-child{
+    flex-direction: column-reverse;
+  }
+}
+.museum-history .container .content .text{
+  max-width: 550px;
+}
+.museum-history .container .content .text p{
+  line-height: 1.5;
+  font-size: var(--p-font-size);
+  color: var(--p-color2);
+  margin: 20px 0;
+}
+.museum-history .container .content .image{
+  max-width: 550px;
+}
+.museum-history .container .content .image img{
+  width: 100%;
+}
+/* End Museum-history  */
