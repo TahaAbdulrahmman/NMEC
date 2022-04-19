@@ -254,7 +254,7 @@ a{
   }
 }
 /* End Historical-Timeline */
-
+/* Start Go Top Buttom */
 a.goup{
   position: fixed;
   bottom: 20px;
@@ -272,3 +272,4 @@ a.goup:hover{
   opacity: 1;
   background-color: var(--hover-color);
 }
+/* End Go Top Buttom */
