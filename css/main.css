@@ -517,7 +517,7 @@ footer .copyright>.container .mysocial{
   align-items: center;
 }
 footer .copyright>.container .mysocial a{
-  padding: 3px;
+  padding: 6px 10px;
   background-color: #2e2e2e;
   margin-right: 10px;
   transition: var(--main-transition);

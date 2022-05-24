@@ -149,4 +149,47 @@ a{
 .container .mummies .kings .box a:last-child{
   margin-bottom: 20px;
 }
+
+/* Start copyright */
+footer .copyright{
+  padding: 10px 0;
+  background-color: black;
+}
+footer .copyright .container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .copyright .container .text{
+  font-size: 15px;
+  font-weight: bold;
+  color:#ffffff;
+}
+footer .copyright .container .heart{
+  color: green;
+}
+footer .copyright>.container .mysocial{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .copyright>.container .mysocial a{
+  padding: 6px 10px;
+  background-color: #2e2e2e;
+  margin-right: 10px;
+  transition: var(--main-transition);
+}
+footer .copyright>.container .mysocial a i{
+  color: #6f6f6f;
+  transition: var(--main-transition);
+}
+footer .copyright>.container .mysocial a:hover i{
+  color: white;
+}
+footer .copyright>.container .mysocial a.git:hover{
+  background-color:#ff9933;
+}
+footer .copyright>.container .mysocial a.whats:hover{
+  background-color: #56f074;
+}
 /* End Mummies */
