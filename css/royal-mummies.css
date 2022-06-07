@@ -192,4 +192,12 @@ footer .copyright>.container .mysocial a.git:hover{
 footer .copyright>.container .mysocial a.whats:hover{
   background-color: #56f074;
 }
+@media(max-width:767px){
+  footer .copyright .container {
+    flex-direction: column-reverse;
+  }
+  footer .copyright>.container .mysocial{
+    margin: 10px 0 5px;
+  }
+}
 /* End Mummies */
